@@ -14,6 +14,7 @@ export class AlterTableUser1597052661448 implements MigrationInterface {
         "group_name"              character varying(255)   NOT NULL,
         "employee_number_manager" integer                  NOT NULL,
         "name_manager"            character varying(255)   NOT NULL,
+        "block"                   integer                  NOT NULL,
         "aht_1"                   integer                  NOT NULL,
         "aht_2"                   integer                  NOT NULL,
         "aht_3"                   integer                  NOT NULL,

@@ -54,6 +54,13 @@ export class UserEntity {
 
   @Column({
     type: 'int',
+    name: 'block',
+    length: 255,
+  })
+  public block!: number;
+
+  @Column({
+    type: 'int',
     name: 'aht_1',
   })
   public aht_1!: number;

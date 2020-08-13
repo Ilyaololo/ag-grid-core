@@ -134,6 +134,7 @@ export class UserService {
       user.group_name = `Группа ${manager}`;
       user.employee_number_manager = 0;
       user.name_manager = manager;
+      user.block = random(1, 4);
       user.aht_1 = random(0, 100);
       user.aht_2 = random(0, 100);
       user.aht_3 = random(0, 100);

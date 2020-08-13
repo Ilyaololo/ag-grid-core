@@ -55,7 +55,6 @@ export class UserEntity {
   @Column({
     type: 'int',
     name: 'block',
-    length: 255,
   })
   public block!: number;
 
